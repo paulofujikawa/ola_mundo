@@ -1,5 +1,5 @@
 a = float(input("peso "))
-b = float(input("altura "))
+b = float(input("altura ")) / 100
 imc = a/(b*b)
 print(imc)
 if imc < 18.5:
